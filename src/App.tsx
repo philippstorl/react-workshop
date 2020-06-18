@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import SimpleName from './components/SimpleName';
 import Counter from './container/Counter';
+import BookList from "./container/BookList";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <SimpleName />
       <Counter />
       <Counter initialValue={500} />
+      <BookList />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
